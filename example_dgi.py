@@ -55,7 +55,7 @@ if __name__ == '__main__':
                         help="name of mlflow experiment")
     parser.add_argument("--run-name", type=str, default=None,
                         help="name of mlflow run")
-    parser.add_argument("--remote-server-uri", type=str, default="http://jarvis.babylontech.co.uk:5000/",
+    parser.add_argument("--remote-server-uri", type=str,
                         help="remote server URI")
 
     args = parser.parse_args()
